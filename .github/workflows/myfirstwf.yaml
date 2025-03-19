@@ -1,5 +1,5 @@
 name: MuditFirstWf
-on: [push]
+on: [push, workflow_dispatch]
 jobs:
   mudit-first-job:
    runs-on: ubuntu-latest
