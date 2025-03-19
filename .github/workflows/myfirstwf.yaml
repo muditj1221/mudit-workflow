@@ -1,6 +1,7 @@
 name: MuditFirstWf
 on: [push]
 jobs:
-  runs-on: ubuntu:latest
-  steps:
+  mudit-first-job:
+   runs-on: ubuntu:latest
+   steps:
     -  run: echo "trying my first workflow"
