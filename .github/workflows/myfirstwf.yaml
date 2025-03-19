@@ -6,8 +6,8 @@ jobs:
    runs-on: ubuntu-latest
    steps:
     -  run: echo "trying my first workflow"
-   second-job:
-    name: first job
-    runs-on: ubuntu-latest
-    steps:
+  second-job:
+   name: first job
+   runs-on: ubuntu-latest
+   steps:
      -  run: echo "trying to run second job"
