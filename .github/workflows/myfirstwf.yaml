@@ -7,7 +7,8 @@ jobs:
    steps:
     -  run: echo "trying my first workflow"
   second-job:
-   name: first job
+   needs: [mudit-first-job]
+   name: second job
    runs-on: ubuntu-latest
    steps:
      -  run: echo "trying to run second job"
